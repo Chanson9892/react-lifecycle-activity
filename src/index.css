@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 750px;
+    text-align: center;
+    margin: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div {
+  margin: 32px auto;
+}
+
+div span {
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+button {
+  font-size: 1.25em;
+  border: none;
+  background-color: #64bee0;
+  color: white;
+  padding: 5px 13px;
+  vertical-align: bottom;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.frame {
+  background-image: url(https://2.bp.blogspot.com/-BR7x00KeA9I/UOBV23i2ImI/AAAAAAAATTs/67Fc1tgse1s/s1600/vintage+ornate+rectangle+guilded+gilded+gold+frame+with+darker+oval+center.png);
+  width: 475px;
+  height: 588px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(90deg);
+  margin: auto;
+  margin-top: -50px;
+}
+
+img {
+  width: 420px;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+  margin-top: 137px;
 }
